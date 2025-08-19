@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio matemático</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div id="start-screen" class="game-screen active">
+            <h1>Desafio Matemático</h1>
+            <input type="text" id="player-name" placeholder="Digite seu nome" required>
+            <button id="start-game-button">Iniciar Jogo</button>
+            <button id="show-ranking-button">Ver Ranking</button>
+        </div>
+
+        <div id="game-screen" class="game-screen">
+            <div class="game-header">
+                <div class="score-display">Pontos: <span id="score">0</span></div>
+                <div class="timer-display">Tempo: <span id="timer">60.00</span>s</div>
+                <div class="question-timer-display">Responda em: <span id="question-timer">10.0</span>s</div>
+            </div>
+            <div class="question-area">
+                <div id="question"></div>
+                <div class="options-grid">
+                    <button class="option-button"></button>
+                    <button class="option-button"></button>
+                    <button class="option-button"></button>
+                    <button class="option-button"></button>
+                </div>
+            </div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+
+        <div id="end-screen" class="game-screen">
+            <h2>Fim de Jogo!</h2>
+            <p><strong>Jogador:</strong> <span id="final-player-name"></span></p>
+            <p><strong>Pontuação Final:</strong> <span id="final-score"></span></p>
+            <p><strong>Tempo Total de Jogo:</strong> <span id="final-game-time"></span></p>
+            <p><strong>Respostas Certas:</strong> <span id="final-correct-answers"></span></p>
+            <p><strong>Respostas Erradas:</strong> <span id="final-wrong-answers"></span></p>
+            <button id="play-again-button">Jogar Novamente</button>
+            <button id="show-ranking-end-button">Ver Ranking</button>
+        </div>
+
+        <div id="ranking-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Ranking das Últimas Partidas</h2>
+                <div id="ranking-list"></div>
+                <button id="export-ranking-button">Exportar Ranking (PNG)</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
