@@ -16,21 +16,23 @@
     --font-family-body: 'Arial', sans-serif; /* Fonte padrão para o corpo */
 
     /* Estágios de Cores de Fundo do Jogo */
-    --color-stage-0: #f0f8ff; /* AliceBlue (quase branco) */
-    --color-stage-1: #e0f2f7; /* LightCyan */
-    --color-stage-2: #d1e9f0; /* LightBlue */
-    --color-stage-3: #c2e0eb; /* PowderBlue */
-    --color-stage-4: #b3d7e6; /* SkyBlue */
-    --color-stage-5: #a4cee0; /* LightSkyBlue */
-    --color-stage-6: #95c5db; /* DeepSkyBlue */
-    --color-stage-7: #85bbd6; /* DodgerBlue */
-    --color-stage-8: #76b2d1; /* CornflowerBlue */
-    --color-stage-9: #67a9cc; /* RoyalBlue */
-    --color-stage-10: #58a0c7; /* MediumBlue */
-    --color-stage-11: #4997c2; /* DarkBlue */
-    --color-stage-12: #3a8ebd; /* MidnightBlue */
-    --color-stage-13: #2b85b8; /* Navy */
-    --color-stage-14: #1c7ba3; /* Indigo */
+    --color-stage-0: #FFFFFF; /* Branco */
+	--color-stage-1: #FFFF00; /* Amarelo Limão */
+	--color-stage-2: #FFA500; /* Laranja */
+	--color-stage-3: #FF0000; /* Vermelho Vivo */
+	--color-stage-4: #FF69B4; /* Rosa Choque */
+	--color-stage-5: #C71585; /* Magenta Profundo */
+	--color-stage-6: #8A2BE2; /* Azul Violeta */
+	--color-stage-7: #4169E1; /* Azul Royal */
+	--color-stage-8: #00BFFF; /* Azul Celeste Profundo */
+	--color-stage-9: #00CED1; /* Turquesa Escuro */
+	--color-stage-10: #32CD32; /* Verde Limão Brilhante */
+	--color-stage-11: #9ACD32; /* Verde Amarelado */
+	--color-stage-12: #B8860B; /* Ouro Escuro */
+	--color-stage-13: #D2691E; /* Chocolate */
+	--color-stage-14: #8B4513; /* Marrom Sela */
+	--color-stage-15: #4682B4; /* Azul Aço */
+	--color-stage-16: #483D8B; /* Azul Ardósia Escuro */
     /* Você pode adicionar mais estágios ou um gradiente para o "rainbow-mode" */
 }
 

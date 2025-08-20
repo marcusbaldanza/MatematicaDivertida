@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Variáveis de Controle de Cor e Dificuldade ---
     let currentColourStage = 0;
-    const TOTAL_COLOR_STAGES = 15; // De 0 a 14, total de 15 estágios
+    const TOTAL_COLOR_STAGES = 17; // De 0 a 16, total de 17 estágios
     const CORRECT_ANSWERS_PER_STAGE = 3; // Mudar de cor a cada 3 respostas corretas
 
     // --- Constantes do Jogo ---
